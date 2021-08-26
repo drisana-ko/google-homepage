@@ -1,184 +1,76 @@
 <!DOCTYPE html>
 <html>
-    <!-- <head>
-        <link rel=“stylesheet” type=“text/css” href=“style.css” />
-    </head> -->
-    <style>
-            -webkit-appearance: none;
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        header {
-            position: absolute;
-            top: 0px;
-            width: 100%;
-
-        }
-
-        footer {
-
-        }
-
-        a {
-            color:black;
-            text-decoration: none;
-            font-size: 14px;
-
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-
-        li {
-            display: inline-block;
-            margin-right: 20px;
-        }
-
-        .topnav-right {
-            float: right;
-            white-space: nowrap;
-        } 
-
-
-        .bottomnav {
-            position:absolute;
-            bottom: 0px;
-            width: 100%;
-            height: 35px;
-            background-color: #f1f1f1;
-            border-top: #e4e4e4;
-            color:#5f6368;
-        }
-
-        .bottomnav-right {
-            float: right;
-            white-space: nowrap;
-        }
-
-
-
-        .center {
-            margin: 0;
-            position: absolute;
-            top: 30%;
-            left: 50%;
-            text-align: center;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);    
-        }
-        .google-logo {
-            width: 272px;
-        }
-        .google-button {
-            margin: auto;
-            /* width: 20em; */
-            margin-top: 30px;
-            border: none;
-            line-height: 0;
-            padding: 0 0px;
-
-        }
-
-        button {
-            border: 1px solid #f2f2f2;
-            border-radius: 4px;
-            padding: 10px 10px 10px 10wwwpx;
-        }
-        
-        button:hover {
-            box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);    
-        }
-
-        #search-bar {
-            margin: auto;
-            margin-top: 10px;
-            width: 440px;
-            padding: 5px 10px 5px 10px;
-            border: 1px solid grey;
-            border-radius: 25px;
-        }
-
-        input {
-            width: 400px;
-            height: 25px;
-            border-width: 0;
-            outline: 0;
-            border: none;
-        }
-
-        
-
-
-    </style>
 
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
+<body>
+    <header>
+        <nav>
+            <div class= "topnav">
+                <ul>
+                    <span>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Store</a></li>
+                    </span>
+                    <span class="topnav-right">
+                        <li><a href="#">Gmail</a></li>
+                        <li><a href="#">Images</a></li>
+                        <li><a href="#">Apps</a></li>
+                        <li><a href="#">Sign In</a></li>
+                    </span>
+                </ul>
 
-    <body>
-        <header>
-            <nav>
-                <div class= "topnav">
-                    <ul>
-                        <span>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Store</a></li>
-                        </span>
-                        <span class="topnav-right">
-                            <li><a href="#">Gmail</a></li>
-                            <li><a href="#">Images</a></li>
-                        </span>
-                    </ul>
+            </div>
 
-                </div>
-  
-            </nav>
-        </header>
-        <div class= "center">
-            <img class="google-logo" src=
-            "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            alt="google logo">
-             <form id="search-bar">
-                 <input type="text">
-             </form>
-             <div class="google-button">
-                <button id="button-search" type="button">
-                    Google Seach
-                </button>        
-                <button id="button-lucky" type="button">
-                    I'm Feeling Lucky
-                </button>
-             </div>
+        </nav>
+    </header>
+    <div class= "center">
+        <img class="google-logo" src=
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="google logo">
+            <form id="search-bar">
+                <input type="text">
+            </form>
+            <div class="google-button">
+            <button id="button-search" type="button">
+                Google Seach
+            </button>        
+            <button id="button-lucky" type="button">
+                I'm Feeling Lucky
+            </button>
+            </div>
 
-        </div>
- 
-        <footer>
-            <nav>
-                <div class= "bottomnav">
-                    <ul>
-                        <span>
-                            <li><a href="#">Advertising</a></li>
-                            <li><a href="#">Business</a></li>
-                            <li><a href="#">How search works</a></li>
-                        </span>
-                        <span class="bottomnav-right">
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Terms</a></li>
-                            <li><a href="#">Settings</a></li>
-                        </span>
-                    </ul>
+    </div>
 
-                </div>
-  
-            </nav>
+    <footer>
+        <nav>
+            <div class= "bottomnav">
+                <ul>
+                    <span>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">How search works</a></li>
+                    </span>
+                    <span class="bottomnav-right">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </span>
+                </ul>
 
-        </footer>
+            </div>
+
+        </nav>
+
+    </footer>
 
 
-    
-    </body>
+
+</body>
 </html> 
